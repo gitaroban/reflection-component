@@ -1,6 +1,6 @@
 {
     "name": "gitaroban/reflection-component",
-    "description": "Ajout de fonctionnalites aux classe Reflection de PHP.",
+    "description": "Ajout de fonctionnalites aux classes Reflection de PHP.",
     "type": "library",
     "require": {
         "php": ">=8.0.17"
