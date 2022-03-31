@@ -13,7 +13,8 @@ class Reflection extends ReflectionClass
      *
      * @return false|int|string
      */
-    #[Pure] public function recupererLeNomDUneConstanteParSaValeur(string $valeur): false|int|string
+    #[Pure]
+    public function recupererLeNomDUneConstanteParSaValeur(string $valeur): false|int|string
     {
         return array_search($valeur, $this->getConstants());
     }
