@@ -1,0 +1,20 @@
+{
+    "name": "gitaroban/reflection-component",
+    "description": "Ajout de fonctionnalites aux classe Reflection de PHP.",
+    "type": "library",
+    "require": {
+        "php": ">=8.0.17"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Gitaroban\\ReflectionComponent\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "atournayre",
+            "email": "a.tournayre@aroban.com"
+        }
+    ]
+}
